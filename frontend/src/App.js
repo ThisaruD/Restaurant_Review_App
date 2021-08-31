@@ -28,7 +28,8 @@ function App() {
         <a href="/restaurants" className="navbar-brand">
           Restaurants Reviews
         </a>
-        <div className="navbar-nav mr-auto">
+        <div className="navbar-nav ms-lg-auto">
+
           <li className="nav-item">
             <Link to={"/restaurants"} className="nav-link">
               Restaurants
@@ -45,6 +46,7 @@ function App() {
                 </Link>
             )}
           </li>
+
         </div>
       </nav>
 
